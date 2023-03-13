@@ -24,7 +24,7 @@
                     </li>
 
                     <li class="sidebar-item active">
-                        <a class="sidebar-link" href="index.html">
+                        <a class="sidebar-link" href="{{ route('categories') }}">
                             <i class="align-middle" data-feather="command"></i> <span
                                 class="align-middle">Categories</span>
                         </a>

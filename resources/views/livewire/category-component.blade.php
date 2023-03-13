@@ -30,10 +30,11 @@
                                         </span>
                                     </td>
                                     <td class="text-center">
-                                        <a href="javascript:void(0)" class="btn btn-dark mtmobile" title="Edit"><i
-                                                class="fas fa-edit"></i></a>
+                                        <a href="javascript:void(0)" class="btn btn-success mtmobile" title="Edit"><i
+                                                class="align-middle" data-feather="edit"></i></a>
                                         <a href="javascript:void(0)" onclick="Confirm({{ ' $category->id ' }})"
-                                            class="btn btn-dark mtmobile" title="Delete"><i class="fas fa-trash"></i></a>
+                                            class="btn btn-danger mtmobile" title="Delete"><i class="align-middle"
+                                                data-feather="trash-2"></i></a>
                                     </td>
                                 </tr>
                             </tbody>
